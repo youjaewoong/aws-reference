@@ -21,7 +21,6 @@
 #### KMS (SSE-KMS)
  - 키를 매년 자동 순환 시키는 옵션
 
-
 #### NLB (Network Load Balacner)
  - 고정 IP 제공
  - TCP 트래픽 처리
@@ -29,3 +28,17 @@
 
 #### ALB (Application Load Balancer)
  - HTTP 트래픽 처리 
+
+#### S3
+ - Transfer Acceleration : 전송  가속화 솔루션 (비용증가)
+ - 불완전한 멀티파트 업로드를 삭제하는 S3 수명 주기 정책 활성화 (비용감소)
+
+
+#### Storage Gateway 파일 게이트웨이
+ - 온프로미스와 AWS 스토리지 연결
+
+#### AWS DataSync
+ - 데이터 온라인 마이그레이션 솔루션 : 온프로미스 nfs 서버에서 s3 버킷으로 마이그레이션 처리
+
+#### Snowball 엣지 스토리지
+ - 오프라인 마이그레이션 솔루션
