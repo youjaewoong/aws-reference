@@ -13,6 +13,8 @@
 
 #### DynamDB
  - 트래픽 양에 따라 확장
+ - 지정 시간복구 (point-in-time recovery) 구성
+ - RPO 복구의 경우 원하는 시점으로 복원
 
 #### Amazon ElastiCache
  - 가장낮은 대기 시간 제공
@@ -33,7 +35,6 @@
  - Transfer Acceleration : 전송  가속화 솔루션 (비용증가)
  - 불완전한 멀티파트 업로드를 삭제하는 S3 수명 주기 정책 활성화 (비용감소)
 
-
 #### Storage Gateway 파일 게이트웨이
  - 온프로미스와 AWS 스토리지 연결
 
@@ -42,3 +43,13 @@
 
 #### Snowball 엣지 스토리지
  - 오프라인 마이그레이션 솔루션
+
+#### Kinesis Data Firehose
+ - privateLink 를 사용하여 VPC에서 Kinesis Data Firehose용 인터페이스 VPC 엔드포인트 생성
+ - 온프로미스 네트워크와 AWS 간 1Gbps AWS Direct Connect 연결 설정
+ - PrivateLink 엔드포인트를 사용하여 온프로미스에서 Kinesis Data Firehose로 데이터 전송
+
+#### SQS (Simple Queue Service)
+ - 대기열 프로비저닝 (
+ - 대기열 폴링 ec2 인스턴스 구성
+ - 인스턴스 당 백로그 계산을 기반으로 메트릭 생성, 메트릭을 기반으로 AutoScailng 그룹을 확장합니다.
