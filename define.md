@@ -4,7 +4,8 @@
  - 집계쿼리 수행 가능 솔루션
  - 데이터를 영구 보관하고 거의 실시간쿼리 가능
 
-#### Amazon EMR 클러스터
+#### Amazon EMR 클러스터 (이전 이름Amazon Elastic MapReduce)
+ - Apache Hadoop 및 Apache Spark와 같은 빅 데이터 프레임워크 실행을 간소화하여 방대한 양의 데이터를 처리하고AWS 분석하는 관리형 클러스터 플랫폼입니다.
  - ERM은 빅데이터 처리 솔루션
 
 #### Elastic File System(Amazon EFS) 
