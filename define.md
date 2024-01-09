@@ -249,6 +249,7 @@
  - SFTP를 사용하여 파일을 교환하는 솔루션
 
 #### Glue
+ - 완전 관리형 ETL(추출, 변환 및 로드) 서비스로, 간단하게 여러 데이터 스토어 및 스트림 간에 원하는 데이터를 분류, 정리, 보강, 이동합니다.
  - ETL: 추출(Extract), 변환(Transform), 로드(Load) 처리하는 솔루션 입니다.
 
 #### EventBridge (CloudWatch Events)
