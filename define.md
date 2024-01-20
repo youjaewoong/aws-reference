@@ -456,3 +456,7 @@ Kubernetes 클러스터를 AWS에 등록하고 연결할 수 있으며 Amazon EK
 #### AWS Step Functions
  - 중요 비즈니스용 애플리케이션을 빌드하도록 AWS Lambda 함수와 기타 AWS 서비스 서비스와 통합할 수 있게 해주는 서버리스 오케스트레이션 서비스입니다. 
  - Step Functions 그래픽 콘솔에서는 애플리케이션 워크플로를 일련의 이벤트 기반 단계로 표시합니다.
+
+#### AWS Outposts
+ -
+ - AWS 인프라, 서비스, API 및 도구를 고객 온프레미스로 확장하는 완전관리형 서비스입니다.
