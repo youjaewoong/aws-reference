@@ -285,6 +285,7 @@
 
 #### SAML (Security Assertion Markup Language) 2.0 기반 페데레이션
  - 온프로미스 AD 사용자를 AWS 액세스와 통합
+ - 통합 인증(SSO)을 활성화하므로 조직의 모든 구성원에 대해 IAM 사용자를 생성하지 않아도 사용자가 AWS Management Console에 로그인하거나 AWS API 작업을 호출할 수 있습니다.
 
 #### SCP(서비스 제어 정책)
  - 조직의 계정에 대한 사용가능한 권한을 제어할수 있습니다.
@@ -458,5 +459,9 @@ Kubernetes 클러스터를 AWS에 등록하고 연결할 수 있으며 Amazon EK
  - Step Functions 그래픽 콘솔에서는 애플리케이션 워크플로를 일련의 이벤트 기반 단계로 표시합니다.
 
 #### AWS Outposts
- -
  - AWS 인프라, 서비스, API 및 도구를 고객 온프레미스로 확장하는 완전관리형 서비스입니다.
+ 
+####  CloudWatch Logs Insights
+  - Amazon CloudWatch Logs 내 로그 데이터를 대화식으로 검색해 분석할 수 있습니다.
+  - 운영상의 문제에 보다 효율적이고 효과적으로 대처할 수 있도록 쿼리를 수행할 수 있습니다.
+  - 문제가 발생하면 CloudWatch Logs Insights를 사용해 잠재적인 원인을 식별하고 배포된 수정 사항을 확인할 수 있습니다.
